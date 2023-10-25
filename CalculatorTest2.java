@@ -8,6 +8,6 @@ class CalculatorTest2 {
 
     @Test
     void multiply() {
-
+        assertEquals(16, Calculator.multiply(4,4));
     }
 }
